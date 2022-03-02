@@ -1,6 +1,4 @@
-// ignore_for_file: prefer_const_constructors
-
-import 'package:belajar_flutter/tutorial/scaffold.dart';
+import 'package:belajar_flutter/tutorial/container.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,6 +13,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Flutter Basic',
         theme: ThemeData(primarySwatch: Colors.blue),
-        home: FirstScreen());
+        home: ContainerScreen());
   }
 }
