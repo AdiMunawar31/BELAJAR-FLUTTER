@@ -1,4 +1,5 @@
-import 'package:belajar_flutter/tutorial/container.dart';
+// import 'package:belajar_flutter/tutorial/container.dart';
+import 'package:belajar_flutter/tutorial/list_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,6 +15,6 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Basic',
         theme: ThemeData(primarySwatch: Colors.pink),
-        home: ContainerScreen());
+        home: ListViews());
   }
 }
