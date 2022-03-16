@@ -41,6 +41,8 @@ class ExpandedFlexiblePage extends StatelessWidget {
 }
 
 class ExpandedWidget extends StatelessWidget {
+  const ExpandedWidget({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Expanded(
@@ -65,6 +67,8 @@ class ExpandedWidget extends StatelessWidget {
 }
 
 class FlexibleWidget extends StatelessWidget {
+  const FlexibleWidget({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Flexible(
